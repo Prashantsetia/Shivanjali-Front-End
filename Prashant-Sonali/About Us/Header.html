@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width ">
+    <title>HEADER-FOOTER</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+
+
+    <!-- -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+    $('.count').counterUp({
+        delay: 10,
+        time: 1000
+    });
+</script>
+
+<body>
+    <!-- NAV BAR -->
+    <section class="header">
+
+        <div class="slideshow">
+            <nav>
+                <!--<a href="#"><img src="image/2.png"></a>-->
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Reports</a></li>
+                        <li><a href="">Updates</a></li>
+                        <li><a href="">Testimonials</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="slideshow-item">
+                <img src="image/banner-1.jpg">
+                <div class="slideshow-text">
+                    <h1>Welcome to <span style="color: #03a0e9;">Shivanjali</span></h1>
+                    <p>"Striving for a Better Tomorrow"</p>
+                </div>
+            </div>
+            <div class="slideshow-item">
+                <img src="image/Child-Support.jpg">
+                <div class="slideshow-text">
+                    <h1>Welcome to <span style="color: #03a0e9;">Shivanjali</span></h1>
+                    <p>"Striving for a Better Tomorrow"</p>
+                </div>
+            </div>
+            <div class="slideshow-item">
+                <img src="image/1.jpg">
+                <div class="slideshow-text">
+                    <h1>Welcome to <span style="color: #03a0e9;">Shivanjali</span></h1>
+                    <p>"Striving for a Better Tomorrow"</p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </section>
+    <!-- NAV BAR ENDS -->
+
+
+
+
+
+
+
+
+    <!-- ABOUT PAGE HEADING -->
+    <!-- <div>
+        <img src="https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://themesgavias.com/wp/kunco/wp-content/themes/kunco/images/bg-header.jpg" id="introImg" alt="">
+        <div class=" d-flex text-center" id="aboutIntro">
+            <h1 id="aboutHeading">About Page</h1>
+        </div>
+        <div aria-label="breadcrumb" class="aboutIntro2">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#" class="homelink">Home</a></li>
+                <li class="breadcrumb-item  homelink" aria-current="page">About Page</li>
+            </ol>
+        </div>
+    </div> -->
+    <!-- ABOUT PAGE HEADING ENDS -->
+    <br><br><br>
+
+
+
+
+    <!--about page first icons start-->
+
+    <section class="mysec">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" style="border-top: 1px solid grey;padding: 20px;">
+                    <h2 class="heading">Let Your Life Be An Inspiration</h2>
+                    <br>
+                    <p class="para" style="color: grey;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+
+                    <button class="btn  btn-warning">Read more</button>
+                    <br><br>
+
+
+                    <div class="media">
+                        <div class="media-left">
+                            <i class='fas fa-chart-line circle-icon hvr-icon' style='font-size:25px;color:#03256c;'></i>
+
+                        </div>
+                        <div class="media-body">
+                            <h3>Diverse Approach</h3>
+                        </div>
+                        <div class="media-left">
+                            <i class='fas fa-user-graduate circle-icon1' style='font-size:24px;color:#03256c; '></i>
+
+                        </div>
+                        <div class="media-body">
+                            <h3>Expert Advice</h3>
+                        </div>
+                    </div>
+                    <br><br>
+
+                    <div class="media">
+                        <div class="media-left">
+                            <i class='fas fas fa-users circle-icon animated-hover' style='font-size:24px;color:#03256c;'></i>
+
+                        </div>
+                        <div class="media-body">
+                            <h3 class="prof">Professional Team</h3>
+                        </div>
+                        <div class="media-left">
+                            <i class='fas fa-chart-bar circle-icon1' style='font-size:24px;color:#03256c;'></i>
+
+                        </div>
+                        <div class="media-body">
+                            <h3>Result Based</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_730,h_560/https://themesgavias.com/wp/kunco/wp-content/uploads/2018/08/bg-video-2.jpg" style="width: 100%; height: 100%" ;>
+
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <!--aboout page first  icons end -->
+
+
+    <!-- TRUST DATA STARTS -->
+    <div class="row mx-0 orgData">
+        <div class="col-md-3 col-sm-5 d-flex justify-center">
+            <div class="vounteerBlock">
+                <ul class="fa-ul">
+                    <li>
+                        <span class="fa-li">
+              <i class="far fa-address-card fa-3x"></i>
+            </span>
+                        <div class="volunteer">
+                            <span class="volunteerCount count">30,999</span>
+                            <h4 class="volunteerHeading">Volunteer</h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-5 d-flex justify-center">
+            <div class="donatedBlock">
+                <ul class="fa-ul">
+                    <li>
+                        <span class="fa-li">
+              <i class="fas fa-hand-holding-usd fa-3x"></i>
+            </span>
+                        <div class="donated">
+                            <span class="donatedCount count">214</span><span class="donatedCount">M $</span>
+                            <h4 class="donatedHeading">Donated</h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-5 d-flex justify-center">
+            <div class="happyBlock">
+                <ul class="fa-ul">
+                    <li>
+                        <span class="fa-li">
+              <i class="far fa-smile fa-3x"></i>
+            </span>
+                        <div class="happy">
+                            <span class="happyCount count">30,999</span>
+                            <h4 class="happyHeading">Happy Children</h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-5 d-flex justify-center">
+            <div class="giftsBlock">
+                <ul class="fa-ul">
+                    <li>
+                        <span class="fa-li">
+              <i class="fas fa-seedling fa-3x"></i>
+            </span>
+                        <div class="gifts">
+                            <span class="giftsCount count">30,999</span>
+                            <h4 class="giftsHeading">Products & Gift</h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- TRUST DATA ENDS -->
+
+    <!--second icon start-->
+    <section class="mysec">
+        <hr>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="vertical">
+                        <h4 class="heading" style="color: #5680e9">You can Join us</h4>
+                        <h3 class="heading">What We Are Doing</h3>
+                    </div>
+                    <br>
+
+
+                    <div class="media">
+                        <div class="media-left">
+                            <i class='fas fa-chart-line circle-icon hvr-icon' style='font-size:25px;color:#03256c;'></i>
+
+                        </div>
+                        <div class="media-body">
+                            <h3>Education</h3>
+                            <p style="color: grey">Start an avocado orchard, send a child to school or invest in a single.</p>
+                        </div>
+                        <div class="media-left">
+                            <i class='fas fa-user-graduate circle-icon1' style='font-size:24px;color:#03256c; '></i>
+
+                        </div>
+
+                        <div class="media-body">
+                            <h3>Entertainment</h3>
+                            <p style="color: grey">Start an avocado orchard, send a child to school or invest in a single.</p>
+
+
+                        </div>
+                    </div>
+
+                    <br><br>
+
+                    <div class="media">
+                        <div class="media-left">
+                            <i class='fas fas fa-users circle-icon animated-hover' style='font-size:24px;color:#03256c;'></i>
+
+                        </div>
+                        <div class="media-body">
+                            <h3>Food</h3>
+                            <p style="color: grey">Start an avocado orchard, send a child to school or invest in a single.</p>
+                        </div>
+                        <div class="media-left">
+                            <i class='fas fa-chart-bar circle-icon1' style='font-size:24px;color:#03256c;'></i>
+
+                        </div>
+                        <div class="media-body">
+                            <h3>Team Building</h3>
+                            <p style="color: grey">Start an avocado orchard, send a child to school or invest in a single.</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-md-5">
+                    <img src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_1024,h_912/https://themesgavias.com/wp/kunco/wp-content/uploads/2018/08/volunteer.jpg" style="width: 100%; height: 100%" ;>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- CAROUSEL STARTS-->
+    <div class="container-fluid carousel">
+
+        <!-- #region Jssor Slider Begin -->
+        <!-- Generator: Jssor Slider Composer -->
+        <!-- Source: https://www.jssor.com/demos/full-width-slider.slider/=edit -->
+        <script src="js/jssor.slider-28.1.0.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            window.jssor_1_slider_init = function() {
+
+                var jssor_1_SlideoTransitions = [
+                    [{
+                        b: -1,
+                        d: 1,
+                        ls: 0.5
+                    }, {
+                        b: 0,
+                        d: 1000,
+                        y: 5,
+                        e: {
+                            y: 6
+                        }
+                    }],
+                    [{
+                        b: -1,
+                        d: 1,
+                        ls: 0.5
+                    }, {
+                        b: 200,
+                        d: 1000,
+                        y: 25,
+                        e: {
+                            y: 6
+                        }
+                    }],
+                    [{
+                        b: -1,
+                        d: 1,
+                        ls: 0.5
+                    }, {
+                        b: 400,
+                        d: 1000,
+                        y: 45,
+                        e: {
+                            y: 6
+                        }
+                    }],
+                    [{
+                        b: -1,
+                        d: 1,
+                        ls: 0.5
+                    }, {
+                        b: 600,
+                        d: 1000,
+                        y: 65,
+                        e: {
+                            y: 6
+                        }
+                    }],
+                    [{
+                        b: -1,
+                        d: 1,
+                        ls: 0.5
+                    }, {
+                        b: 800,
+                        d: 1000,
+                        y: 85,
+                        e: {
+                            y: 6
+                        }
+                    }],
+                    [{
+                        b: -1,
+                        d: 1,
+                        ls: 0.5
+                    }, {
+                        b: 500,
+                        d: 1000,
+                        y: 195,
+                        e: {
+                            y: 6
+                        }
+                    }],
+                    [{
+                        b: 0,
+                        d: 2000,
+                        y: 30,
+                        e: {
+                            y: 3
+                        }
+                    }],
+                    [{
+                        b: -1,
+                        d: 1,
+                        rY: -15,
+                        tZ: 100
+                    }, {
+                        b: 0,
+                        d: 1500,
+                        y: 30,
+                        o: 1,
+                        e: {
+                            y: 3
+                        }
+                    }],
+                    [{
+                        b: -1,
+                        d: 1,
+                        rY: -15,
+                        tZ: -100
+                    }, {
+                        b: 0,
+                        d: 1500,
+                        y: 100,
+                        o: 0.8,
+                        e: {
+                            y: 3
+                        }
+                    }],
+                    [{
+                        b: 500,
+                        d: 1500,
+                        o: 1
+                    }],
+                    [{
+                        b: 0,
+                        d: 1000,
+                        y: 380,
+                        e: {
+                            y: 6
+                        }
+                    }],
+                    [{
+                        b: 300,
+                        d: 1000,
+                        x: 80,
+                        e: {
+                            x: 6
+                        }
+                    }],
+                    [{
+                        b: 300,
+                        d: 1000,
+                        x: 330,
+                        e: {
+                            x: 6
+                        }
+                    }],
+                    [{
+                        b: -1,
+                        d: 1,
+                        r: -110,
+                        sX: 5,
+                        sY: 5
+                    }, {
+                        b: 0,
+                        d: 2000,
+                        o: 1,
+                        r: -20,
+                        sX: 1,
+                        sY: 1,
+                        e: {
+                            o: 6,
+                            r: 6,
+                            sX: 6,
+                            sY: 6
+                        }
+                    }],
+                    [{
+                        b: 0,
+                        d: 600,
+                        x: 150,
+                        o: 0.5,
+                        e: {
+                            x: 6
+                        }
+                    }],
+                    [{
+                        b: 0,
+                        d: 600,
+                        x: 1140,
+                        o: 0.6,
+                        e: {
+                            x: 6
+                        }
+                    }],
+                    [{
+                        b: -1,
+                        d: 1,
+                        sX: 5,
+                        sY: 5
+                    }, {
+                        b: 600,
+                        d: 600,
+                        o: 1,
+                        sX: 1,
+                        sY: 1,
+                        e: {
+                            sX: 3,
+                            sY: 3
+                        }
+                    }]
+                ];
+
+                var jssor_1_options = {
+                    $AutoPlay: 1,
+                    $LazyLoading: 1,
+                    $CaptionSliderOptions: {
+                        $Class: $JssorCaptionSlideo$,
+                        $Transitions: jssor_1_SlideoTransitions
+                    },
+                    $ArrowNavigatorOptions: {
+                        $Class: $JssorArrowNavigator$
+                    },
+                    $BulletNavigatorOptions: {
+                        $Class: $JssorBulletNavigator$,
+                        $SpacingX: 20,
+                        $SpacingY: 20
+                    }
+                };
+
+                var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+                /*#region responsive code begin*/
+
+                var MAX_WIDTH = 1600;
+
+                function ScaleSlider() {
+                    var containerElement = jssor_1_slider.$Elmt.parentNode;
+                    var containerWidth = containerElement.clientWidth;
+
+                    if (containerWidth) {
+
+                        var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                        jssor_1_slider.$ScaleWidth(expectedWidth);
+                    } else {
+                        window.setTimeout(ScaleSlider, 30);
+                    }
+                }
+
+                ScaleSlider();
+
+                $Jssor$.$AddEvent(window, "load", ScaleSlider);
+                $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+                $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+                /*#endregion responsive code end*/
+            };
+        </script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,regular,italic,700,700italic&subset=latin-ext,greek-ext,cyrillic-ext,greek,vietnamese,latin,cyrillic" rel="stylesheet" type="text/css" />
+        <svg viewbox="0 0 0 0" width="0" height="0" style="display:block;position:relative;left:0px;top:0px;">
+        <defs>
+          <filter id="jssor_1_flt_1" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stddeviation="4"></feGaussianBlur>
+          </filter>
+          <radialGradient id="jssor_1_grd_2">
+            <stop offset="0" stop-color="#fff"></stop>
+            <stop offset="1" stop-color="#000"></stop>
+          </radialGradient>
+          <mask id="jssor_1_msk_3">
+            <path fill="url(#jssor_1_grd_2)" d="M600,0L600,400L0,400L0,0Z" x="0" y="0"
+              style="position:absolute;overflow:visible;"></path>
+          </mask>
+        </defs>
+      </svg>
+        <div id="jssor_1">
+            <!-- Loading Screen -->
+            <div data-u="loading" class="jssorl-009-spin">
+                <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+            </div>
+            <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1600px;height:560px;overflow:hidden;">
+                <div style="background-color:#d3890e;">
+                    <img data-u="image" class="carImage" style="opacity:0.8;" data-src="https://images.unsplash.com/photo-1494832944834-a08818c634b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=889&q=80" />
+                    <div data-ts="flat" data-p="275" data-po="40% 50%" style="left:150px;top:40px;width:800px;height:300px;position:absolute;">
+                        <div data-to="50% 50%" data-t="0" style="left:50px;top:520px;width:400px;height:100px;position:absolute;color:#f0a329;font-family:'Roboto Condensed',sans-serif;font-size:84px;font-weight:900;letter-spacing:0.5em;">
+                            LOVE</div>
+                        <div data-to="50% 50%" data-t="5" style="left:50px;top:710px;width:700px;height:100px;position:absolute;color:#f0a329;font-family:'Roboto Condensed',sans-serif;font-size:84px;font-weight:900;letter-spacing:0.5em;">
+                            ALL</div>
+                    </div>
+                </div>
+                <div>
+                    <img data-u="image" class="carImage" data-src="https://images.unsplash.com/photo-1607956744673-f75e67453620?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" />
+                    <div data-ts="flat" data-p="540" data-po="40% 50%" class="carouselSlider">
+                        <div data-to="50% 50%" data-ts="preserve-3d" data-t="6" style="left:350px;top:360px;width:900px;height:500px;position:absolute;">
+                            <div data-to="50% 50%" data-t="5" style="left:50px;top:710px;width:700px;height:100px;position:absolute;color:#ffffff;font-family:'Roboto Condensed',sans-serif;font-size:84px;font-weight:900;letter-spacing:0.5em;">
+                                HELP</div>
+                        </div>
+                    </div>
+                </div>
+                <div style="background-color:#000000;">
+                    <img data-u="image" style="opacity:0.8;" class="carImage" data-src="https://images.unsplash.com/photo-1560622972-b7d7ca2dd95c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=807&q=80" />
+                    <div data-ts="flat" data-p="1080" class="carouselSlider">
+                        <svg viewbox="0 0 600 400" data-ts="preserve-3d" width="600" height="400" data-tchd="jssor_1_msk_3" style="left:255px;top:0px;display:block;position:absolute;overflow:visible;">
+                <g mask="url(#jssor_1_msk_3)">
+                  <path data-to="300px -180px" fill="none" stroke="rgba(250,251,252,0.5)" stroke-width="20"
+                    d="M410-350L410-10L190-10L190-350Z" x="190" y="-350" data-t="10"
+                    style="position:absolute;overflow:visible;"></path>
+                </g>
+              </svg>
+                        <svg viewbox="0 0 800 72" data-to="50% 50%" width="800" height="72" data-t="11" style="left:-800px;top:78px;display:block;position:absolute;font-family:'Roboto Condensed',sans-serif;font-size:84px;font-weight:900;overflow:visible;">
+                <text fill="#fafbfc" text-anchor="middle" x="400" y="72">DONATION
+                </text>
+              </svg>
+                        <svg viewbox="0 0 800 72" data-to="50% 50%" width="800" height="72" data-t="12" style="left:1600px;top:153px;display:block;position:absolute;font-family:'Roboto Condensed',sans-serif;font-size:60px;font-weight:900;overflow:visible;">
+                <text fill="#fafbfc" text-anchor="middle" x="400" y="72">IMPROVE LIVES
+                </text>
+              </svg>
+                    </div>
+                </div>
+                <div>
+                    <img data-u="image" class="carImage" data-src="https://images.unsplash.com/photo-1612401104473-a79cb1da9351?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" />
+                    <div data-ts="flat" data-p="1080" class="carouselSlider">
+
+                    </div>
+                </div>
+                <div>
+                    <img data-u="image" class="carImage" data-src="https://images.unsplash.com/photo-1536116686779-2105c53be183?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80" />
+                    <div data-ts="flat" data-p="1080" class="carouselSlider">
+                        <div data-to="50% 50%" data-t="14" style="left:690px;top:140px;width:600px;height:150px;position:absolute;opacity:0;color:#ffffff;font-family:Georgia,'Times New Roman',Times,serif;font-size:60px;line-height:1.2;letter-spacing:0.1em;">
+                            MAKE <br />BETTER WORLD.</div>
+                    </div>
+                </div>
+            </div><a data-scale="0" href="https://www.jssor.com" style="display:none;position:absolute;">slider html</a>
+
+            <!-- Arrow Navigator -->
+            <div data-u="arrowleft" class="jssora051" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                  <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+              </svg>
+            </div>
+            <div data-u="arrowright" class="jssora051" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                  <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+              </svg>
+            </div>
+        </div>
+        <script type="text/javascript">
+            jssor_1_slider_init();
+        </script>
+        <!-- #endregion Jssor Slider End -->
+
+        <!-- CAROUSEL ENDS -->
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="container bottom_border">
+                <div class="row">
+                    <div class="col-sm-4 col-md col-sm-4  col-12 col">
+                        <h5 class="headin5_amrc col_white_amrc pt2">Main Office</h5>
+                        <!--headin5_amrc-->
+                        <p class="mb10 pt-2">Shivanjali Society, Shakti Nagar, Tonk Road, Jaipur - 302018
+                        </p>
+
+                        <p><i class="fa fa-phone"></i><a href="#"> +91 8233583565 </a> </p>
+                        <p><a href="#"><i class="fa fa fa-envelope"></i> info@shivanjalisociety.in </a> </p>
+                        <p><a href="https://twitter.com/shivanjalingo"><i class="fab fa-twitter"></i> @shivanjalingo </a></p>
+                        <p><a href="https://www.instagram.com/shivanjali.ngoindia/"><i class="fab fa-instagram"></i> @shivanjali.ngoindia</a></p>
+                        <p><a href="https://www.facebook.com/profile.php?id=100048829754043"><i class="fab fa-facebook"></i> @shivanjalingo-makingabattertomorrow </a></p>
+
+
+
+                    </div>
+
+
+                    <div class="col-sm-4 col-md  col-12 col">
+                        <h5 class="headin5_amrc col_white_amrc pt2">IMPORTANT LINKS</h5>
+                        <!--headin5_amrc-->
+                        <ul class="footer_ul_amrc pt-2">
+                            <li><a href="#">WHAT WE DO </a></li>
+                            <li><a href="#">HOW YOU CAN HELP</a></li>
+                            <li><a href="#">CAREER</a></li>
+                            <li><a href="#">MANEGMENT TEAM</a></li>
+                            <li><a href="#">VOLUNTERR TEAM</a></li>
+                            <li><a href="#">DONATION</a></li>
+                        </ul>
+                        <!--footer_ul_amrc ends here-->
+                    </div>
+
+
+                    <div class="col-sm-4 col-md  col-12 col">
+                        <h5 class="headin5_amrc col_white_amrc pt2">NEWSLETTER</h5>
+                        <!--headin5_amrc-->
+                        <div class="footer_ul_amrc pt-2">
+                            <h6 style="color: white;">TO RECEIVE ALL UPDATES:</h6>
+                            <input class="mb-1 mt-1" type="email" placeholder="Enter E-mail Address"><br>
+                            <button class="btn btn-sm btn-warning">Sign Up</button>
+                        </div>
+                        <!--footer_ul_amrc ends here-->
+                    </div>
+
+
+                    <div class="col-sm-4 col-md  col-12 col">
+                        <h5 class="headin5_amrc col_white_amrc pt2">RECENT POST:</h5>
+                        <!--headin5_amrc ends here-->
+
+                        <ul class="footer_ul2_amrc pt-2">
+                            <li>
+                                <a href="https://twitter.com/shivanjalingo/status/1398541869345214470">
+                                    <img src="https://i.ibb.co/dbYXpmd/circle-cropped.png" /> Twitter
+                                    <p style="border: 0.5px solid white; font-size: 12px;">FUNDRAISAL FOR SAVING A SMALL GIRL'S LIFE....KINDLY AMPLIFY THIS TWEET AS MUCH AS POSSIBLE ON TWITTER ALONG WITH INSTAGRAM AND HELP ANNU.</p>
+                                </a>
+                            </li>
+
+                            <!-- <li><a href="https://twitter.com/shivanjalingo/status/1398541869345214470"><img src="https://i.ibb.co/dbYXpmd/circle-cropped.png"/> Twitter<p style="border: 0.5px solid white; font-size: 12px;">FUNDRAISAL FOR SAVING A SMALL GIRL'S LIFE....KINDLY AMPLIFY THIS TWEET AS MUCH AS POSSIBLE ON TWITTER ALONG WITH INSTAGRAM AND HELP ANNU.</p></a></li
+      
+              <li><a href="https://twitter.com/shivanjalingo/status/1398541869345214470"><img src="https://i.ibb.co/dbYXpmd/circle-cropped.png"/> Twitter<p style="border: 0.5px solid white; font-size: 12px;">FUNDRAISAL FOR SAVING A SMALL GIRL'S LIFE....KINDLY AMPLIFY THIS TWEET AS MUCH AS POSSIBLE ON TWITTER ALONG WITH INSTAGRAM AND HELP ANNU.</p></a></li -->
+                        </ul>
+                        <!--footer_ul2_amrc ends here-->
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <h1 class="p-3" style="color: white; text-align: center;">SHIVANJALI</h1>
+                <p class="text-center">SHIVANJALI follows all financial regulations set forth for non-profits by the Government of India, and is audited annually.</p>
+            </div>
+
+
+            <div class="container">
+
+                <!--foote_bottom_ul_amrc ends here-->
+                <p class="text-center">copyright <a href="#"> @shivanjalisociety</a></p>
+
+
+                <!--social_footer_ul ends here-->
+            </div>
+
+        </footer>
+
+
+
+        <!-- footer-end -->
+
+
+        <script src="jquery.min.js"></script>
+        <script src="jquery.numscroller-1.0.js"></script>
+
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="script.js"></script>
+</body>
+
+</html>
