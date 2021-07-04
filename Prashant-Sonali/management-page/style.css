@@ -441,12 +441,6 @@ hr {
     margin-bottom: 20px;
 }
 
-@media(max-width:1205px) {
-    blockquote {
-        width: 100% !important;
-    }
-}
-
 
 /* QUOTES */
 
@@ -458,7 +452,7 @@ hr {
 }
 
 .slider {
-    width: 100%;
+    width: 73%;
     height: 440px;
     position: relative;
     margin: auto;
@@ -485,11 +479,6 @@ hr {
     width: max-content
 }
 
-
-/* .slider .item:last-child {
-    margin-right: 0;
-} */
-
 .ctrl {
     text-align: center;
     margin-top: 5px;
@@ -510,11 +499,23 @@ hr {
 }
 
 .ctrl-btn.pro-prev {
-    left: 0;
+    left: 118px;
 }
 
 .ctrl-btn.pro-next {
-    right: 0;
+    right: 108px;
+}
+
+@media screen and (max-width: 768px) {
+    .slider {
+        width: 100%;
+    }
+    .ctrl-btn.pro-prev {
+        left: 0px;
+    }
+    .ctrl-btn.pro-next {
+        right: 0px;
+    }
 }
 
 .d-flex {
